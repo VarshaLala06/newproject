@@ -48,7 +48,7 @@ export default function Notification() {
             }
         });
 
-        ws.current = new WebSocket('wss://outgoing-troll-neatly.ngrok-free.app');
+        ws.current = new WebSocket('wss://redbird-skilled-absolutely.ngrok-free.app');
 
         ws.current.onopen = () => {
             console.log('WebSocket connection opened');
